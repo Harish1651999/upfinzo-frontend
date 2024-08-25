@@ -29,10 +29,10 @@ Follow these steps to get the project running locally:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/upfinzo-frontend.git
+   git clone https://github.com/Harish1651999/upfinzo-frontend
    ```
 
-2. **Navigate to the project directory:**:
+2. **Navigate to the project directory**:
 
    ```bash
    cd upfinzo-frontend
