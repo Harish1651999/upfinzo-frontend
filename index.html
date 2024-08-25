@@ -1,13 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upfinzo Frontend</title>
-    <!-- Link CSS -->
+
+    <!-- Link to Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/assets/css/lib/bootstrap/bootstrap.min.css">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="/assets/css/lib/slick/slick.css">
+    <link rel="stylesheet" href="/assets/css/lib/slick/slick-theme.css">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
+
 <body>
-    
+
+    <!-- Testimonials Section Start -->
+    <section class="testimonials py-5">
+        <h1 class="testimonials__title text-center fw-700 mb-3">What User says</h1>
+        <p class="testimonials__description text-center fw-400 fs-6 lh-sm">Testimonials that speak louder than words!
+            Customer stories that light
+            up <br> our day.</p>
+
+        <div class="testimonials__cards text-center pt-5">
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/jacob.svg" alt="John Doe" title="John Doe">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">John Doe</h6>
+                    <p class="testimonials__card-text mb-0"> As a Freelancer, managing invoices and chasing payments was
+                        a
+                        constant headache. Now, with automated and secure payment I am getting paid on time, every time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/marvin.svg" alt="Marvin McKinney" title="Marvin McKinney">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Marvin McKinney</h6>
+                    <p class="testimonials__card-text mb-0">Since switching to Swift Revel, I finally have peace of mind
+                        regarding my business finances. With their secure platform, I trust my data’s protection
+                        completely.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/jacob.svg" alt="Jacob Jones" title="Jacob Jones">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Jacob Jones</h6>
+                    <p class="testimonials__card-text mb-0">As a budding startup, we sought a financial solution that
+                        was
+                        simple,
+                        secure, and scalable. Swift Revel checked all the boxes, enabling focus on growth.  </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/webb.svg" alt="Theresa Webb" title="Theresa Webb">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Theresa Webb</h6>
+                    <p class="testimonials__card-text mb-0">Swift Revel empowers me to manage my business finances with
+                        confidence and ease. Their integrated tax solutions ensure I'm always tax compliant.</p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/marvin.svg" alt="Ronald Richards" title="Ronald Richards">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Ronald Richards</h6>
+                    <p class="testimonials__card-text mb-0">We needed a payment gateway that could handle our diverse
+                        customer
+                        base. Swift Revel offers a wide range of payment options, making it easy for our clients to pay.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/jacob.svg" alt="John Doe" title="John Doe">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">John Doe</h6>
+                    <p class="testimonials__card-text mb-0"> As a Freelancer, managing invoices and chasing payments was
+                        a
+                        constant headache. Now, with automated and secure payment I am getting paid on time, every time.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/marvin.svg" alt="Marvin McKinney" title="Marvin McKinney">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Marvin McKinney</h6>
+                    <p class="testimonials__card-text mb-0">Since switching to Swift Revel, I finally have peace of mind
+                        regarding my business finances. With their secure platform, I trust my data’s protection
+                        completely.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/jacob.svg" alt="Jacob Jones" title="Jacob Jones">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Jacob Jones</h6>
+                    <p class="testimonials__card-text mb-0">As a budding startup, we sought a financial solution that
+                        was
+                        simple,
+                        secure, and scalable. Swift Revel checked all the boxes, enabling focus on growth.  </p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/webb.svg" alt="Theresa Webb" title="Theresa Webb">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Theresa Webb</h6>
+                    <p class="testimonials__card-text mb-0">Swift Revel empowers me to manage my business finances with
+                        confidence and ease. Their integrated tax solutions ensure I'm always tax compliant.</p>
+                </div>
+            </div>
+
+            <div class="testimonials__card">
+                <div class="testimonials__card-content p-4">
+                    <div class="testimonials__card-img-wrapper mb-2">
+                        <img class="testimonials__card-img d-inline-block rounded-circle"
+                            src="/assets/images/marvin.svg" alt="Ronald Richards" title="Ronald Richards">
+                    </div>
+                    <h6 class="testimonials__card-title fs-15px text-gray">Ronald Richards</h6>
+                    <p class="testimonials__card-text mb-0">We needed a payment gateway that could handle our diverse
+                        customer
+                        base. Swift Revel offers a wide range of payment options, making it easy for our clients to pay.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section End -->
+
+    <!-- jQuery -->
+    <script src="/assets/js/jquery/jquery.slim.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="/assets/js/bootstrap/popper.min.js"></script>
+    <script src="/assets/js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Slick Carousel -->
+    <script src="/assets/js/slick/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="/assets/js/script.js?q=1999"></script>
 </body>
+
 </html>
